@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
-updater = Updater("709201082:AAGQ1i3v2Zx6ysLcM6aYSJKFgHvrodP4hr0")
+updater = Updater("")
 
 def photo(bot, update):
     file_id = update.message.photo[-1].file_id
